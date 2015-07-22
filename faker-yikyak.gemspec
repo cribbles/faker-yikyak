@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-  s.add_runtime_dependency "faker"
-  s.add_runtime_dependency "marky_markov"
+
+  s.add_dependency "faker"
+  s.add_dependency "marky_markov"
 end
