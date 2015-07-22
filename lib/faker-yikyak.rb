@@ -1,5 +1,5 @@
 require 'faker'
-require './yikyakov.rb'
+require_relative 'yikyakov'
 
 module Faker
   class YikYak < Base

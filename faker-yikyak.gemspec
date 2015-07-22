@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.email       = ["csloop@wesleyan.edu"]
   s.homepage    = "https://github.com/cribbles/faker-yikyak"
   s.summary     = %q{Extends Faker with YikYakov word soup}
+  s.description = %q{Add YikYakov generators for Faker using Faker::YikYakov}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -15,4 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "faker"
   s.add_dependency "marky_markov"
+
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
 end
