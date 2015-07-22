@@ -1,4 +1,4 @@
-require "faker-yikyak/version"
+require "./lib/version.rb"
 
 Gem::Specification.new do |s|
   s.name        = "faker-yikyak"
