@@ -1,5 +1,5 @@
 Faker::YikYak
 =============
 
-Adapts [YikYakov](https://github.com/dglunz/yikyakov) for use as a 
-[Faker](https://github.com/stympy/faker) extension.
+Provides a [Faker](https://github.com/stympy/faker) wrapper for 
+[YikYakov](https://github.com/dglunz/yikyakov) functionality.
