@@ -8,4 +8,3 @@ yaks = File.open('yaks.txt', mode="w")
 obj = JSON.parse(json)
 thing = []
 obj["messages"].each { |m| yaks.write(m["message"] + ' ') }
-# binding.pry
